@@ -1,0 +1,22 @@
+{
+	"name": "🦊💬",
+	"globIgnorePaths": [
+		"**/package.json",
+		"**/tsconfig.json"
+	],
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+				"tayChat": {
+					"$path": "out",
+					"include": {
+						"$path": "include",
+						"node_modules": {
+							"$path": "node_modules/@rbxts"
+						}
+					}
+				}
+		}		
+	}
+}
