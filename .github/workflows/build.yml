@@ -16,7 +16,7 @@ jobs:
       # cargo the new node_modules?
       - run: sudo apt install libssl-dev
       - run: cargo install rojo
-      - run: rojo -v
+      - run: rojo -V
 
       - run: npm install -g roblox-ts
       - run: rbxtsc -v
